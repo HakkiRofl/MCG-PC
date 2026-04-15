@@ -17,6 +17,7 @@ option(GLFW_INSTALL "Generate installation target" OFF)
 
 # Подключаем все файлы, включая заголовочные .h
 include_directories("include")
+include_directories("third-party/stb")
 add_subdirectory(third-party/GLFW EXCLUDE_FROM_ALL) # Добавляем GLFW как подпроект
 
 
